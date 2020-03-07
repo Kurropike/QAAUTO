@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="setup"
+    errors="0" failures="0" hostname="" id="" package="setup" skipped="0"
+    tests="2" time="9.897" timestamp="">
+  
+    <testcase name="Searching Google" classname="setup" time="7.517" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Searching Perez" classname="setup" time="2.380" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

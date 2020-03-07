@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="5">
+
+  <testsuite name="employeepractice"
+    errors="2" failures="0" hostname="" id="" package="employeepractice" skipped="0"
+    tests="5" time="24.39" timestamp="">
+  
+    <testcase name="First Test" classname="employeepractice" time="0.6840" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Second Test" classname="employeepractice" time="0.4750" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Third Test" classname="employeepractice" time="2.523" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="TESTy" classname="employeepractice" time="4.814" assertions="0">
+    </testcase>
+  
+    <testcase name="Fourth Test" classname="employeepractice" time="15.89" assertions="0">
+      <error message="An error occurred while running .click() command on &lt;li[name=&#34;employee11&#34;]&gt;: undefined; undefined" type="error">NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;employee11&#34;]&gt;: undefined; undefined
+    at ClickElement.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:363:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:60:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;addemployee&#34;]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;fbe9a53625cb47c36970fd66cf84c93a&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+[0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;li[name=&#34;employee11&#34;]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;fbe9a53625cb47c36970fd66cf84c93a&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

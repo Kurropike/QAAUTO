@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="googly"
+    errors="1" failures="1" hostname="" id="" package="googly" skipped="0"
+    tests="1" time="8.619" timestamp="">
+  
+    <testcase name="Searching Lomando" classname="googly" time="8.619" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;div[id=&#34;d1&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5068ms)[0m">    at Object.Searching Lomando (/Users/admin/qadevmtn/practice-automation/tests/googly.js:14:10)
+    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+
+    
+      <failure message="    at Object.Searching Lomando (/Users/admin/qadevmtn/practice-automation/tests/googly.js:14:10)">    at processTicksAndRejections (internal/process/task_queues.js:94:5)</failure>
+      <error message="Timed out while waiting for element &lt;div[id=&#34;d1&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5068ms)[0m" type="error">    at processTicksAndRejections (internal/process/task_queues.js:94:5)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TimeoutError: An error occurred while running .click() command on &lt;img[src=&#34;tope.jpg&#34;]&gt;: 
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:null,&#34;errorStatus&#34;:&#34;&#34;,&#34;error&#34;:&#34;An unknown error has occurred.&#34;}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:94:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="variableToyProblem"
+    errors="1" failures="1" hostname="" id="" package="variableToyProblem" skipped="1"
+    tests="1" time="12.17" timestamp="">
+  
+    <testcase name="Selectors" classname="variableToyProblem" time="12.17" assertions="1">  <failure message="Timed out while waiting for element &lt;h3[class=&#34;current-weather__location&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5154ms)[0m">    at Object.Selectors (/Users/admin/qadevmtn/practice-automation/tests/variableToyProblem.js:13:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+      <failure message="    at Object.Selectors (/Users/admin/qadevmtn/practice-automation/tests/variableToyProblem.js:13:14)">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+      <error message="Timed out while waiting for element &lt;h3[class=&#34;current-weather__location&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5154ms)[0m" type="error">    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .setValue() command on &lt;input[type=&#34;test&#34;]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;9fb58e5dfcfd4e8ace843ba6185104d1&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Test data" classname="variableToyProblem">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

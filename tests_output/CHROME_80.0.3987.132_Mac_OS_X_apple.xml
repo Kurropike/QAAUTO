@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="apple"
+    errors="1" failures="0" hostname="" id="" package="apple" skipped="0"
+    tests="1" time="3.925" timestamp="">
+  
+    <testcase name="Searching Apple" classname="apple" time="3.925" assertions="0">
+      <error message="An error occurred while running .click() command on &lt;input#ac-gn-searchform-input&gt;: ; invalid session id" type="error">TimeoutError: An error occurred while running .click() command on &lt;input#ac-gn-searchform-input&gt;: ; invalid session id
+    at Function.getError (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:157:12)
+    at PeriodicPromise.perform (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:109:27)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:48:22)
+    at async PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:51:16)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  ReferenceError: browser is not defined[0m
+[0;90m       at Object.Searching Apple (/Users/admin/qadevmtn/practice-automation/tests/apple.js:16:46)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
