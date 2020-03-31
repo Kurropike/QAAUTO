@@ -10,11 +10,23 @@ module.exports = {
             .end()
     },
     'Searching Google': browser => {
-        var searchTerm = 'Cookie Monster'
-        google
-        .setValue('@searchBar', [searchTerm, browser.Keys.ENTER])
-        .waitForElementPresent('@results')
-        .verify.containsText('@results', searchTerm)
+       var pineapple = (searchTerm) => {
+           google
+                .setValue('@searchBar', [searchTerm, browser.Keys.ENTER])
+                .waitForElementVisible('@results')
+                .verify.containsText('@results', searchTerm)
+                .clearValue('@searchBar')
+
+       }
+    //    pineapple('CookieMonster')
+    //    pineapple('Transformers')
+       pineapple('bo')
+       pineapple('bo')
+       pineapple('bo')
+      
+       
+
+
           
 
     }

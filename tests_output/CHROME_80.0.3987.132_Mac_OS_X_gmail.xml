@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="gmail"
+    errors="1" failures="0" hostname="" id="" package="gmail" skipped="0"
+    tests="1" time="0.004000" timestamp="">
+  
+    <testcase name="signIn" classname="gmail" time="0.004000" assertions="0">
+      <error message="gmail.setValue is not a function" type="error">TypeError: gmail.setValue is not a function
+    at Object.signIn (/Users/admin/qadevmtn/practice-automation/tests/gmail.js:15:10)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: gmail.setValue is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.[0m
+[0;90m       at Object.signIn (/Users/admin/qadevmtn/practice-automation/tests/gmail.js:15:10)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -29,6 +29,10 @@ module.exports = {
             selector: '(//div[@class="sc-jqCOkK djSgtl sc-gqjmRU fmVgeN"])[5]',
             locateStrategy: 'xpath'
         },
+        nextButton: {
+            selector: '//a[class=" _65Bje  coreSpriteRightPaginationArrow"]',
+            locateStrategy: 'xpath'
+        }
 
         }
     }

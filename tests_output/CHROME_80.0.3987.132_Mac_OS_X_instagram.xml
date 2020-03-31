@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="instagram"
+    errors="1" failures="0" hostname="" id="" package="instagram" skipped="5"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+    <system-err>
+      [0;31m  Error: No selector property for element &#34;xpathSearchBar&#34;. Instead found properties: selector[0m
+[0;90m       at Array.forEach (&lt;anonymous&gt;)
+       at Array.forEach (&lt;anonymous&gt;)
+       at Object.before (/Users/admin/qadevmtn/practice-automation/tests/instagram.js:35:34)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Searching Instagram log in" classname="instagram">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="log in to instagram" classname="instagram">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Search person" classname="instagram">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click first user and like" classname="instagram">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Loop through next users and like" classname="instagram">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

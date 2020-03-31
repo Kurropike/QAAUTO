@@ -1,3 +1,6 @@
+
+
+
 module.exports = {
     before: browser => {
         browser.url('https://devmountain-qa.github.io/employee-manager/1.2_Version/index.html')
@@ -7,20 +10,24 @@ module.exports = {
         browser.end()
     },
 
-    
+ 
     'First Test': browser => {
         browser
-        .click('li[name="employee1"]')
-        .clearValue('input[name="nameEntry"]')
-        .setValue('input[name="nameEntry"]', 'Cookie Monster')
-        .verify.valueContains('input[name="nameEntry"]','Cookie Monster')
-        .clearValue('input[name="phoneEntry"]')
-        .setValue('input[name="phoneEntry"]', '7572929742')
-        .verify.valueContains('input[name="phoneEntry"]','7572929742')
-        .clearValue('input[name="titleEntry"]')
-        .setValue('input[name="titleEntry"]', 'Cookie Monster')
-        .verify.valueContains('input[name="titleEntry"]','Cookie Monster')
-        .click('button[name="save"]')
+                  /**
+ * Clicks an element whose text equals the `text` parameter - element must have a unique text value.
+ * @param {object} browser - `browser`/`client` in use
+ * @param {string} text - the text of the element that should be clicked
+ */
+var clickByText = (browser, text) => {
+    browser
+        .useXpath()
+        .click(`//*[text()="${text}"]`)
+        .useCss()
+}
+clickByText('Bernice Ortiz')
+browser
+    .pause()
+       
     },
     'Second Test': browser => {
         browser
@@ -164,7 +171,8 @@ module.exports = {
 
 
     }
- 
+
+
 
   
     

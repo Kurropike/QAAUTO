@@ -5,41 +5,41 @@
 
   <testsuite name="checkPoint2"
     errors="0" failures="0" hostname="" id="" package="checkPoint2" skipped="0"
-    tests="7" time="9.656" timestamp="">
+    tests="7" time="10.29" timestamp="">
   
-    <testcase name="Odds and Evens 1 " classname="checkPoint2" time="2.132" assertions="1">
+    <testcase name="Odds and Evens 1 " classname="checkPoint2" time="2.408" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Odds and Evens 2" classname="checkPoint2" time="1.231" assertions="1">
+    <testcase name="Odds and Evens 2" classname="checkPoint2" time="1.232" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Odds and Evens String " classname="checkPoint2" time="1.276" assertions="2">
+    <testcase name="Odds and Evens String " classname="checkPoint2" time="1.271" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Filter Object" classname="checkPoint2" time="1.248" assertions="1">
+    <testcase name="Filter Object" classname="checkPoint2" time="1.252" assertions="1">
 
     
     </testcase>
   
-    <testcase name="FilterString" classname="checkPoint2" time="1.251" assertions="1">
+    <testcase name="FilterString" classname="checkPoint2" time="1.616" assertions="1">
 
     
     </testcase>
   
-    <testcase name="palindrome" classname="checkPoint2" time="1.233" assertions="1">
+    <testcase name="palindrome" classname="checkPoint2" time="1.234" assertions="1">
 
     
     </testcase>
   
-    <testcase name="sum" classname="checkPoint2" time="1.285" assertions="1">
+    <testcase name="sum" classname="checkPoint2" time="1.277" assertions="1">
 
     
     </testcase>

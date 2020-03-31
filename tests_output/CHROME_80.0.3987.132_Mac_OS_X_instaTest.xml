@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="instaTest"
+    errors="1" failures="0" hostname="" id="" package="instaTest" skipped="3"
+    tests="2" time="1.656" timestamp="">
+  
+    <testcase name="Searching Instagram log in" classname="instaTest" time="1.653" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="log in to instagram" classname="instaTest" time="0.003000" assertions="0">
+      <error message="browser is not defined" type="error">ReferenceError: browser is not defined
+    at likePhoto (/Users/admin/qadevmtn/practice-automation/tests/instaTest.js:4:39)
+    at Object.log in to instagram (/Users/admin/qadevmtn/practice-automation/tests/instaTest.js:31:9)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21
+    at async DefaultRunner.runTestSuite (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  ReferenceError: browser is not defined[0m
+[0;90m       at likePhoto (/Users/admin/qadevmtn/practice-automation/tests/instaTest.js:4:39)
+       at Object.log in to instagram (/Users/admin/qadevmtn/practice-automation/tests/instaTest.js:31:9)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Search person" classname="instaTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Click first user and like" classname="instaTest">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Loop through next users and like" classname="instaTest">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
