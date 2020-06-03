@@ -1,40 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
-            failures="0"
+<testsuites errors="0"
+            failures="1"
             tests="2">
 
   <testsuite name="ace"
-    errors="1" failures="0" hostname="" id="" package="ace" skipped="0"
-    tests="2" time="5.414" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="ace" skipped="0"
+    tests="2" time="16.01" timestamp="">
   
-    <testcase name="Signing In" classname="ace" time="3.380" assertions="0">
+    <testcase name="Signing In" classname="ace" time="3.957" assertions="0">
     </testcase>
   
-    <testcase name="Store locator function" classname="ace" time="2.034" assertions="1">
+    <testcase name="Store locator function" classname="ace" time="12.05" assertions="2">
 
-    
-      <error message="Error while running &#34;setValue&#34; command: &#34;Error: setValue method expects 3 (or 4 if using implicit &#34;css selector&#34; strategy) arguments - 2 given.
-&#34;" type="error">Error
-    at Command.executeCommand (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:188:22)
-    at Page.setValue (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:55:25)
-    at Object.Store locator function (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/ace.js:66:10)
-    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
-    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
-    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
-    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
-    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
-    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
-    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21</error>
+      <failure message="Timed out while waiting for element &lt;mapOption&gt; to be present for 10000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(10527ms)[0m">    at Object.Store locator function (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/ace.js:74:10)</failure>
+
     
     </testcase>
   
 
-  
-    <system-err>
-      [0;31m  Error: Error while running &#34;setValue&#34; command: &#34;Error: setValue method expects 3 (or 4 if using implicit &#34;css selector&#34; strategy) arguments - 2 given.
-  &#34;[0m
-[0;90m       at Object.Store locator function (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/ace.js:66:10)[0m
-    </system-err>
   
 
   

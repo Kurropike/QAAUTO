@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="rastSound"
+    errors="1" failures="1" hostname="" id="" package="rastSound" skipped="6"
+    tests="1" time="5.092" timestamp="">
+  
+    <testcase name="Getting to Sign in" classname="rastSound" time="5.092" assertions="1">  <failure message="Timed out while waiting for element &lt;(//a[@class=&#34;elementor-item has-submenu&#34;])[3]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;found&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5078ms)[0m">    at Object.Getting to Sign in (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/rastSound.js:15:10)</failure>
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .click() command on &lt;Element [name=@acceptButton]&gt;: from unknown error: web view not found,  (Session info: chrome=81.0.4044.129),  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Mac OS X 10.14.6 x86_64); no such window: target window already closed
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;no such window: target window already closed&#34;,&#34;error&#34;:[&#34;from unknown error: web view not found&#34;,&#34;  (Session info: chrome=81.0.4044.129)&#34;,&#34;  (Driver info: chromedriver=80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}),platform=Mac OS X 10.14.6 x86_64)&#34;]},&#34;errorStatus&#34;:23,&#34;error&#34;:&#34;no such window: target window already closed&#34;,&#34;httpStatusCode&#34;:200}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Signing In" classname="rastSound">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Offers" classname="rastSound">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Selecting products and adding them to cart" classname="rastSound">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="going to cart and editing" classname="rastSound">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Logging Out" classname="rastSound">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Signing Back In" classname="rastSound">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

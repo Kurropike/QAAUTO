@@ -9,17 +9,14 @@ module.exports = {
         browser
             .end()
     },
-    beforeEach: browse => {
-        ace
-        .theOne()
-    }, 
+    
 
 
     'Signing In': browser => {
         // popUp(ace)
 
-        var email = "charlespullen2000@gmail.com"
-        var password = "Damondiadema17"
+        var email = ""
+        var password = ""
         ace
             .theOne()
         ace
@@ -39,15 +36,15 @@ module.exports = {
     //         .theOne()
     //     // browser.url("http://www.acehardware.com")
     //     // // browser.pause(2000) only enable if needed
-    //     // browser.element("css selector", "#acsFocusFirst", result => {
-    //     //     if (result.status != -1) {
-    //     //         console.log("Element exists");
-    //     //         browser.click("#acsFocusFirst");
-    //     //     } else {
-    //     //         console.log("Element does not exist")
-    //     //     }
-    //     //     // console.log(result)
-    //     // })
+        // browser.element("css selector", "#acsFocusFirst", result => {
+        //     if (result.status != -1) {
+        //         console.log("Element exists");
+        //         browser.click("#acsFocusFirst");
+        //     } else {
+        //         console.log("Element does not exist")
+        //     }
+        //     // console.log(result)
+        // })
     //     // browser.setValue(".mz-searchbox-input", ["Traeger", browser.Keys.ENTER])
     //     // browser.waitForElementVisible(".mz-pagetitle")
     //     // browser.assert.containsText(".mz-pagetitle", "Traeger")
@@ -58,32 +55,51 @@ module.exports = {
     //     // browser.clearValue(".mz-searchbox-input")
 
 
-    'Store locator function': browser => {
-        var address = "Provo"
-        ace 
-        .click('@storeLocator')
-        .waitForElementVisible('@inputMapBar')
-        .setValue('@inputMapBar')
-        .click('@mapSearchButton')
-        .pause()
+    // 'Store locator function': browser => {
+    //     var address = "Ogden"
+        
+    //     ace 
 
-    },
-
-    // // },
-    // 'Searching Ace': browser => {
-    //     ace
-    //         .theOne()
-    //         browser.setValue(".mz-searchbox-input", ["Traeger", browser.Keys.ENTER])
-    //         browser.waitForElementVisible(".mz-pagetitle")
-    //         browser.assert.containsText(".mz-pagetitle", "Traeger")
-            
-            
-            
-
-
-
+    //     .click('@storeLocator')
+    //     .waitForElementVisible('@inputMapBar')
+    //     .pause(1000)
+    //     .theOne()
+    //     .setValue('@inputMapBar', address)
+    //     .click('@mapSearchButton')
+    //     .waitForElementPresent('@makeMyStoreButton', 10000)
+    //     .click('@makeMyStoreButton')
+    //     .pause(1000)
+        
 
     // },
+
+    // },
+    'Searching Ace for Traeger Grill': browser => {
+        ace
+            .theOne()
+            browser.setValue(".mz-searchbox-input", ["Traeger", browser.Keys.ENTER])
+            browser.waitForElementVisible(".mz-pagetitle")
+            browser.assert.containsText(".mz-pagetitle", "Traeger")
+            ace
+            .click('@image1')
+            // .theOne()
+            // ace
+            .pause()
+            .click('@addToCart')
+            .theOne()
+            
+            //.click('@continueShopping')
+            .pause(1000)
+
+            
+            
+            
+
+
+
+
+    },
+    
     // 'adding to cart': browser => {
     //     ace
     //     .theOne()

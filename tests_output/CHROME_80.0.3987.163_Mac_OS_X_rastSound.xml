@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="rastSound"
+    errors="0" failures="0" hostname="" id="" package="rastSound" skipped="0"
+    tests="2" time="21.18" timestamp="">
+  
+    <testcase name="Signing In" classname="rastSound" time="14.40" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Selecting products and adding them to cart" classname="rastSound" time="6.785" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

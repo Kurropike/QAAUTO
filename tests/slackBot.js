@@ -1,7 +1,7 @@
 let slack = {}
 var user = {
-    email: "kurropike@gmail.com",
-    password: "Damondiadema17",
+    email: "",
+    password: "",
     workspace: "devmtn"
 }
 module.exports = {

@@ -80,8 +80,8 @@ module.exports = {
             selector: '//a[@class="mz-carttable-qty-update"]',
             locateStrategy: 'xpath'
         },
-        continueShoppingAfterAddingToCart: {
-            selector: '//button[@data-mz-action="closeModal"]',
+        continueShopping: {
+            selector: '(//button[@data-mz-action])[4]',
             locateStrategy: 'xpath'
         },
         storeLocator: {
@@ -95,6 +95,19 @@ module.exports = {
         mapSearchButton: {
             selector: '//button[@id="mapsearchbtn"]',
             locateStrategy: 'xpath'
+        },
+        mapOption: {
+            selector: '//div[@class="item row"]',
+            locateStrategy: 'xpath'
+        },
+        firstMapOption: {
+            selector: '(//div[@class="item row"])[2]',
+            locateStrategy: 'xpath'
+        },
+        makeMyStoreButton: {
+            selector: '(//button[@class="aceRed"])[3]',
+            locateStrategy: 'xpath'
+
         }
 
        

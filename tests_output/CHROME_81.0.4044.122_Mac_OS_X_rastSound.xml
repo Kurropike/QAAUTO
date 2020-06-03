@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="3">
+
+  <testsuite name="rastSound"
+    errors="1" failures="0" hostname="" id="" package="rastSound" skipped="0"
+    tests="3" time="23.44" timestamp="">
+  
+    <testcase name="Getting to Sign in" classname="rastSound" time="7.553" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Signing In" classname="rastSound" time="6.964" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Selecting products and adding them to cart" classname="rastSound" time="8.925" assertions="2">
+
+    
+
+    
+      <error message="rast.waitForElementPresent(...).click(...).waitForElementPresent(...).click(...).pause(...).verifyElementVisible is not a function" type="error">TypeError: rast.waitForElementPresent(...).click(...).waitForElementPresent(...).click(...).pause(...).verifyElementVisible is not a function
+    at Object.Selecting products and adding them to cart (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/rastSound.js:47:10)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
+    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
+    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async DefaultRunner.runTestSuite (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  TypeError: rast.waitForElementPresent(...).click(...).waitForElementPresent(...).click(...).pause(...).verifyElementVisible is not a function
+   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
+   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.[0m
+[0;90m       at Object.Selecting products and adding them to cart (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/rastSound.js:47:10)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
