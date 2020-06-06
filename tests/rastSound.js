@@ -33,13 +33,6 @@ module.exports = {
         .click('@submitButton')
         // .pause()
         
-
-    
-
-           
-        
-
-
     },
     'Offers': browser => {
         rast

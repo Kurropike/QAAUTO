@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="rokuRemote"
+    errors="1" failures="0" hostname="" id="" package="rokuRemote" skipped="0"
+    tests="1" time="0.001000" timestamp="">
+  
+    <testcase name="Loop through and press buttons" classname="rokuRemote" time="0.001000" assertions="0">
+      <error message="Element &#34;xpathNextUserButton&#34; was not found in &#34;rokuRemoteObject&#34;. Available elements: " type="error">Error: Element &#34;xpathNextUserButton&#34; was not found in &#34;rokuRemoteObject&#34;. Available elements: 
+    at Command.validate (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:101:13)
+    at Command.getElement (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:113:10)
+    at Command.parseElementSelector (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:153:39)
+    at Command.executeCommand (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:186:10)
+    at Page.click (/usr/local/lib/node_modules/nightwatch/lib/page-object/command-wrapper.js:55:25)
+    at Object.Loop through and press buttons (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/rokuRemote.js:19:10)
+    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
+    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
+    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
+    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)</error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      [0;31m  Error: Element &#34;xpathNextUserButton&#34; was not found in &#34;rokuRemoteObject&#34;. Available elements: [0m
+[0;90m       at Object.Loop through and press buttons (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/rokuRemote.js:19:10)[0m
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
