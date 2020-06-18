@@ -18,16 +18,24 @@ module.exports = {
                 .clearValue('@searchBar')
 
        }
+       for (let i = 0; i < 100000; i++) {
+           google
+        pineapple('贅沢')
+       }
     //    pineapple('CookieMonster')
     //    pineapple('Transformers')
-       pineapple('bo')
-       pineapple('bo')
-       pineapple('bo')
+
+
+      
+       
+       
       
        
 
 
           
 
-    }
+    }, 
+
+    
 }

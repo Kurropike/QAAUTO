@@ -1,5 +1,4 @@
 Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 9515
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1591483151.388][SEVERE]: bind() failed: Address already in use (48)
-IPv4 port not available. Exiting...
+ChromeDriver was started successfully.

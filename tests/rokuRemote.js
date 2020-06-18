@@ -26,11 +26,16 @@ module.exports = {
     'Chaos': browser => {
          for (let i = 0; i < 10000; i++) {
         roku
-
-        .setValue('@inputText', "Isn't it weird that you can't see your own eyes?")
+        // .click('@settingsButton')
+        // .setValue('@inputText', "Isn't it weird that you can't see your own eyes?")
         // .clearValue('@inputText')
         // .click('@downButton')
         // .click('@upButton')
+        .click('@downButton')
+        .click('@rightButton')
+        .click('@upButton')
+        .click('@leftButton')
+        // .click('@okButton')
        
         
         
