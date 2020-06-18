@@ -24,7 +24,7 @@ module.exports = {
         pineapple('贅沢')
         pineapple('ファッション')
         pineapple('不動産')
-        pineapple('新宿')
+        // pineapple('新宿')
        }
     //    pineapple('CookieMonster')
     //    pineapple('Transformers')
