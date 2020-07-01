@@ -12,7 +12,7 @@ module.exports = {
     'Searching Google': browser => {
        var pineapple = (searchTerm) => {
            google
-           .pause(20000)
+           .pause(200)
                 .setValue('@searchBar', [searchTerm, browser.Keys.ENTER])
                 .waitForElementVisible('@results')
                 .verify.containsText('@results', searchTerm)
@@ -21,9 +21,10 @@ module.exports = {
        }
        for (let i = 0; i < 10000; i++) {
            google
-        pineapple('贅沢')
-        pineapple('ファッション')
-        pineapple('不動産')
+        // pineapple('贅沢')
+        // pineapple('ファッション')
+        // pineapple('不動産')
+        pineapple("Bronson")
         // pineapple('新宿')
        }
     //    pineapple('CookieMonster')
