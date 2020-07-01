@@ -16,7 +16,7 @@ module.exports = {
                 .setValue('@searchBar', [searchTerm, browser.Keys.ENTER])
                 .waitForElementVisible('@results')
                 .verify.containsText('@results', searchTerm)
-                .clearValue('@searchBar')
+                .clearValue('@searchBar');
 
        }
        for (let i = 0; i < 10000; i++) {
