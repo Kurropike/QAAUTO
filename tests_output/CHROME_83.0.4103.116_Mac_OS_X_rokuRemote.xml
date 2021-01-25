@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="rokuRemote"
+    errors="0" failures="1" hostname="" id="" package="rokuRemote" skipped="1"
+    tests="1" time="5.272" timestamp="">
+  
+    <testcase name="Get Set up for chaos" classname="rokuRemote" time="5.272" assertions="1">  <failure message="Timed out while waiting for element &lt;//button[@class=&#34;ret-roku-btn empty&#34;]&gt; to be present for 5000 milliseconds. - expected [0;32m&#34;visible&#34;[0m but got: [0;31m&#34;not found&#34;[0m [0;90m(5267ms)[0m">    at Object.Get Set up for chaos (/Users/kurropike/Documents/qadevmtn 10.31.58 AM/practice-automation/tests/rokuRemote.js:15:9)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Chaos" classname="rokuRemote">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

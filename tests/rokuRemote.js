@@ -14,7 +14,7 @@ module.exports = {
        roku 
        .waitForElementVisible('@skipForNow')
        .click('@skipForNow')
-       .setValue('@deviceIpHost', "192.168.1.11")
+       .setValue('@deviceIpHost', "192.168.1.4")
        .waitForElementVisible('@deviceName')
        .setValue('@deviceName', "55R6+")
        .waitForElementVisible('@deviceModel')
@@ -26,15 +26,16 @@ module.exports = {
     'Chaos': browser => {
          for (let i = 0; i < 10000; i++) {
         roku
+        
         // .click('@settingsButton')
         // .setValue('@inputText', "Isn't it weird that you can't see your own eyes?")
         // .clearValue('@inputText')
         // .click('@downButton')
         // .click('@upButton')
-        .click('@downButton')
-        .click('@rightButton')
-        .click('@upButton')
-        .click('@leftButton')
+        // .click('@downButton')
+        // .click('@rightButton')
+        // .click('@upButton')
+        // .click('@leftButton')
         // .click('@okButton')
        
         
